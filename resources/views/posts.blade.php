@@ -8,35 +8,12 @@
     <link rel="stylesheet" href="/app.css">
 </head>
 <body>
-    <article>
-        <h1><a href="/posts/my-first-post">My First Post</a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
-            magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
-             alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
-             Sequi error illum ullam obcaecati a quae dolore. Quia animi adipisci ratione laborum excepturi maxime pariatur omnis libero voluptatibus molestiae beatae ipsam porro 
-             neque quaerat tempora, perspiciatis possimus officia! Quod facere voluptatem vitae sit.
-        </p>
-    </article>
 
-    <article>
-        <h1><a href="/posts/my-second-post">My Second Post</a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
-            magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
-             alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
-             Sequi error illum ullam obcaecati a quae dolore. Quia animi adipisci ratione laborum excepturi maxime pariatur omnis libero voluptatibus molestiae beatae ipsam porro 
-             neque quaerat tempora, perspiciatis possimus officia! Quod facere voluptatem vitae sit.
-        </p>
-    </article>
+        <?php foreach ($posts as $post) : ?>
+            <article>
+            <?= $post; ?>   
+            </article>
+        <?php endforeach; ?>
 
-    
-    <article>
-        <h1><a href="/posts/my-third-post">My Third Post</a></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
-            magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
-             alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
-             Sequi error illum ullam obcaecati a quae dolore. Quia animi adipisci ratione laborum excepturi maxime pariatur omnis libero voluptatibus molestiae beatae ipsam porro 
-             neque quaerat tempora, perspiciatis possimus officia! Quod facere voluptatem vitae sit.
-        </p>
-    </article>
 </body>
 </html>
