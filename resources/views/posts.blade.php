@@ -9,7 +9,7 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">My First Post</a></h1>
+        <h1><a href="/posts/my-first-post">My First Post</a></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
             magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
              alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
@@ -19,7 +19,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">My Second Post</a></h1>
+        <h1><a href="/posts/my-second-post">My Second Post</a></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
             magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
              alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
@@ -30,7 +30,7 @@
 
     
     <article>
-        <h1><a href="/post">My Third Post</a></h1>
+        <h1><a href="/posts/my-third-post">My Third Post</a></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sed cumque provident dolorum atque consequuntur voluptate eaque sit labore saepe delectus aperiam, 
             magni corrupti voluptas perspiciatis possimus non praesentium dicta? Voluptas consequatur porro hic, facilis odit neque totam nulla cumque nihil aliquam! Repellendus
              alias sequi, ut similique tempora modi ducimus voluptatem, eius suscipit tenetur non quia. Natus voluptate unde ea dolore voluptates officiis quisquam ad repellat. 
