@@ -1,4 +1,4 @@
-@prop(['posts'])
+@props(['posts'])
 
 <x-post-featured-card :post="$posts->first()" />
 @if($posts->count() > 1)
