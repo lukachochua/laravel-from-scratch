@@ -22,6 +22,8 @@ class RegisterController extends Controller
             'password' => 'required|max:255|min:7'
         ]);
 
+        
+
         User::create($attributes);
 
         return redirect('/');
