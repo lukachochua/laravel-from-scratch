@@ -16,18 +16,21 @@ class SessionsController extends Controller
     public function store()
     {
         $attributes = request()->validate([
-            'email' => 'required',
+            'email' => 'required|email',
             'password' => 'required'
         ]);
 
-        if(auth()->attempt($attributes)) {
-            return redirect('/')->with('success', 'Welcome Back!');
+        if(! auth()->attempt($attributes)) {
+            throw ValidationException::withMessages([
+                'email'=> 'Your provided credentials could not be verified'
+            ]);
         } 
 
-        throw ValidationException::withMessages([
-            'email'=> 'Your provided credentials could not be verified'
-        ]);
 
+
+        session()->regenerate();
+            
+        return redirect('/')->with('success', 'Welcome Back!');
 
     }
     
