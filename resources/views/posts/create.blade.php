@@ -1,9 +1,5 @@
 <x-layout>
-    <section class="py-8 max-w-sm mx-auto">
-        <h1 class="text-xl font-bold mb-4">
-            Publish New Post
-        </h1>
-        <x-panel class="max-w-sm mx-auto">
+    <x-setting heading="Publish New Post">
             <form method="POST" action="/admin/posts" enctype="multipart/form-data">
                 @csrf
 
@@ -31,6 +27,5 @@
 
                 <x-form.button>Publish</x-form.button>
             </form>
-        </x-panel>
-    </section>
+    </x-setting>
 </x-layout>
